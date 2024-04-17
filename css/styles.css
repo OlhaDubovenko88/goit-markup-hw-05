@@ -629,13 +629,12 @@ margin-left: 16px;
     margin-bottom: 4px;
 }
 
-.label-input-wrap{
-margin-bottom: 16px;
-}
 .input-svg-wrap{
     position: relative;
 }
-
+.comment-wrap{
+    margin-bottom: 16px;
+}
 .input{   
     display: flex;
     align-items: flex-start;
@@ -667,7 +666,7 @@ margin-bottom: 16px;
     letter-spacing: 0.04em;
     color: rgba(46, 47, 66, 0.4);
 }
-.input:focus, .text area:focus{
+.input:focus, .textarea:focus{
     border-color: #4d5ae5;
 }
 .input:focus + .label-icon{
